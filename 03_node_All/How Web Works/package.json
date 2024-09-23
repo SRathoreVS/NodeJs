@@ -1,0 +1,15 @@
+{
+  "name": "my-package",
+  "version": "1.1.0",
+  "description": "node-module package.json test folder",
+  "main": "httpMod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "my-package": "file:"
+  }
+}
